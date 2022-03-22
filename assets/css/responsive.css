@@ -2017,7 +2017,7 @@ input.icon {
         width: unset !important;
     }
 
-    .rs-breadcrumbs, .about {
+    .rs-breadcrumbs, .about, .add_audio {
         padding: 30px 0px !important;
     }
 
