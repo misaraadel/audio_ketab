@@ -2092,4 +2092,18 @@ input.icon {
     .paragraph_book {
         padding-bottom: 30px !important;
     }
+
+    .border-article {
+        height: unset !important;
+        padding: 15px 15px 30px !important;
+        width: 100% !important;
+    }
+
+    .rs-events2 .events-details h5 {
+        height: unset !important;
+        width: 100%;
+        margin: 0px 0px 15px 0px !important;
+        font-size: 15px;
+        font-weight: 900;
+    }
 }
