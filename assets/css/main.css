@@ -1424,6 +1424,7 @@ ul {
 
 .rs-banner-section {
 	position: relative;
+	z-index: 99;
 }
 
 .rs-banner-section img.banner-image {
@@ -8929,11 +8930,11 @@ ul {
 ---------------------------------------*/
 #scrollUp {
 	text-align: center;
-	bottom: 40px;
+	bottom: 10px;
 	cursor: pointer;
 	display: none;
 	position: fixed;
-	right: 40px;
+	right: 10px;
 	z-index: 999;
 }
 
