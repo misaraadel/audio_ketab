@@ -1951,7 +1951,7 @@ input.icon {
         width: 100%;
     }
 
-    .m-image {
+    .m-image, .about_description p, .rs-why-choose .des {
         margin: 0px !important;
     }
 
@@ -1979,7 +1979,7 @@ input.icon {
 
     .menu-area {
         position: relative;
-        z-index: 9999;
+        z-index: 999;
     }
 
     .rs-banner-section img.banner {
@@ -2000,4 +2000,43 @@ input.icon {
         width: 100%;
         padding: 200px 0px 100px 0px;
     }
+
+    .login .contact-info, .login .contact-info2 {
+        display: none !important;
+    }
+
+    .modal-dialog.return_pass .modal-content {
+        width: 90% !important;
+    }
+
+    .login .add_audio {
+        width: 100% !important;
+    }
+
+    .modal.done .modal-dialog {
+        width: unset !important;
+    }
+
+    .rs-breadcrumbs, .about {
+        padding: 30px 0px !important;
+    }
+
+    .rs-breadcrumbs .page-title, .about_description h3 {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .about_description {
+        margin-top: 20px;
+        padding: 15px 10px  !important;
+    }
+
+    .rs-why-choose .des h3 {
+        margin: 15px 0px !important;
+    }
+
+    .rs-why-choose .choose-item {
+        margin: 0px auto !important;
+    }
+
+
 }
