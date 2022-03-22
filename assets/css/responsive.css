@@ -2017,8 +2017,12 @@ input.icon {
         width: unset !important;
     }
 
-    .rs-breadcrumbs, .about, .add_audio, .sec-spacer, .chat_pag.message.p-100 {
+    .rs-breadcrumbs, .about, .add_audio, .sec-spacer, .chat_pag.message.p-100 { 
         padding: 30px 0px !important;
+    }
+
+    .chat_pag.message.p-100 .row.no-gutters {
+        padding: 0px 0px 20px 0px !important;
     }
 
     .rs-breadcrumbs .page-title, .about_description h3 {
@@ -2038,7 +2042,7 @@ input.icon {
         margin: 15px 0px !important;
     }
 
-    .rs-courses-style7 .card-body, .broadcas-sec .card-body, .sec-spacer .card-body {
+    .rs-courses-style7 .card-body, .broadcas-sec .card-body, .sec-spacer .card-body, .sec-spacer2 .card-body {
         padding: 0px !important;
     }
 
@@ -2158,5 +2162,64 @@ input.icon {
         width: 100%;
         height: 345px;
         object-fit: contain;
+    }
+
+    .div_con, .pass-content.two {
+        margin: 0px !important;
+    }
+
+    .rs-breadcrumbs.style2.bg10.breadcrumbs-overlay {
+        padding: 120px 0px !important;
+    }
+
+    .images_decoration_listner .box img {
+        object-fit: contain !important;
+    }
+
+    .images_decoration_listner .box .total_listner span {
+        width: 50px;
+        height: 50px !important;
+        font-size: 15px !important;
+        line-height: unset !important;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .consulter_next, .sec-spacer2.p-100, .pass_return.pb-170, .not_found_div.p-100, .play_list, .print_book.pb-170 {
+        padding: 30px 0px !important;
+    }
+
+    .shadow-page, .play_list .playlist_item {
+        padding: 20px 10px !important;
+        margin: 20px 0px !important;
+    }
+
+    .play_list .playlist_item {
+        margin: 15px 0px;
+    }
+
+    .pass-content {
+        margin: 0px;
+        padding: 20px 10px !important;
+    }
+
+    .event-item .events-details {
+        height: unset !important;
+        padding: 20px 10px;
+    }
+
+    .event-item {
+        overflow: hidden !important;
+    }
+
+    .event-item p {
+        height: unset !important;
+    }
+
+    .rs-breadcrumbs.style3 ul li,
+    .rs-breadcrumbs.style3 ul {
+        margin: 0px !important;
     }
 }
