@@ -2038,7 +2038,7 @@ input.icon {
         margin: 15px 0px !important;
     }
 
-    .rs-courses-style7 .card-body, .broadcas-sec .card-body {
+    .rs-courses-style7 .card-body, .broadcas-sec .card-body, .sec-spacer .card-body {
         padding: 0px !important;
     }
 
@@ -2134,5 +2134,13 @@ input.icon {
         height: 16px;
         object-fit: contain;
         margin-inline-end: 10px;
+    }
+    
+    .no_comment {
+        padding: 20px 15px !important;
+    }
+
+    .no_comment .no_commetsec p {
+        margin-bottom: 0px !important;
     }
 }
