@@ -2017,7 +2017,7 @@ input.icon {
         width: unset !important;
     }
 
-    .rs-breadcrumbs, .about, .add_audio {
+    .rs-breadcrumbs, .about, .add_audio, .sec-spacer {
         padding: 30px 0px !important;
     }
 
@@ -2030,8 +2030,16 @@ input.icon {
         padding: 15px 10px  !important;
     }
 
+    .rs-courses-style7 .item {
+        margin-bottom: 20px !important;
+    }
+
     .rs-why-choose .des h3 {
         margin: 15px 0px !important;
+    }
+
+    .rs-courses-style7 .card-body {
+        padding: 0px !important;
     }
 
     .rs-why-choose .choose-item {
