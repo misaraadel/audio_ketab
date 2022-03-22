@@ -2038,5 +2038,11 @@ input.icon {
         margin: 0px auto !important;
     }
 
+    .add_audio p {
+        margin: 0px !important;
+    }
 
+    .after_upload {
+        margin-bottom: 20px;
+    }
 }
