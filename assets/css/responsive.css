@@ -2053,4 +2053,43 @@ input.icon {
     .after_upload {
         margin-bottom: 20px;
     }
+
+    .rs-breadcrumbs.style2 .page-title {
+        font-size: 20px;
+        margin: 0px 0px 15px 0px !important;
+    }
+
+    .news-img img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .news-list-item .news-content {
+        border-radius: 20px !important;
+        margin-bottom: 20px;
+    }
+
+    .news-list-item .news-content.styletwo {
+        padding: 15px 10px !important;
+    }
+
+    .news-title2 {
+        font-size: 16px !important;
+        line-height: 25px !important;
+    }
+    
+    .news-button .file_button {
+        margin: 10px 0px 0px !important;
+    }
+
+    .news-button.mt-28 {
+        margin: 0px !important;
+    }
+
+    .paragraph_book {
+        padding-bottom: 30px !important;
+    }
 }
