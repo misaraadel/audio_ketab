@@ -2038,7 +2038,7 @@ input.icon {
         margin: 15px 0px !important;
     }
 
-    .rs-courses-style7 .card-body {
+    .rs-courses-style7 .card-body, .broadcas-sec .card-body {
         padding: 0px !important;
     }
 
@@ -2105,5 +2105,34 @@ input.icon {
         margin: 0px 0px 15px 0px !important;
         font-size: 15px;
         font-weight: 900;
+    }
+
+    .news-list-item .content, .news-list-item .content2 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 15px 3px !important;
+    }
+
+    .news-list-item .news-button, .news-list-item .content2 .listner {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .news-list-item .news-button a, .news-list-item .content2 .listner .rs-list{
+        width: 48%;
+        padding: 11px 5px;
+        font-size: 14px;
+        margin: 0px !important;
+    }
+
+    .news-list-item .news-button a img {
+        width: 17px;
+        height: 16px;
+        object-fit: contain;
+        margin-inline-end: 10px;
     }
 }
