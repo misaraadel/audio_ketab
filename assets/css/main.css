@@ -10576,7 +10576,23 @@ audio {
 	font-weight: 600;
 	display: block;
 	padding: 13px;
-	margin: 0 auto;
+	margin: 0 10px !important;
+}
+
+.broadcas-sec .nav-tabs-container .nav.nav-tabs {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.broadcas-sec .nav-tabs-container .nav-link {
+	margin: 0px 10px;
+}
+
+.broadcas-sec .nav-justified .nav-item {
+	flex-grow: unset !important;
 }
 
 .nav-tabs {
