@@ -1852,8 +1852,8 @@ ul {
 .rs-services-style7 .Services-wrap .Services-item .Services-icon img {
 	border-radius: 28px;
 	width: 100%;
-	width: 220px;
 	height: 220px;
+	object-fit: cover !important;
 }
 
 .rs-services-style7 .Services-wrap .Services-item .Services-desc {
@@ -15151,4 +15151,8 @@ position: absolute;
 .mb-12
 {
 	margin-bottom: 12px;
+}
+
+.modal-dialog form {
+	width: 100% !important;
 }

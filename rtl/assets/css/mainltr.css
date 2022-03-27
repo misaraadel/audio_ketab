@@ -13653,3 +13653,7 @@ position: absolute;
 {
 	margin-bottom: 12px;
 }
+
+.modal-dialog form {
+	width: 100% !important;
+}
